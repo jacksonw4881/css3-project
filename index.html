@@ -17,8 +17,7 @@
       animation-name: spin;
       animation-duration: 1s;
       /*Amount of times the effect should be played*/
-      animation-timing-function: linear;
-      /*Makes the speed of the effect constant*/
+      transition: transform 2s;
     }
 
     a {
@@ -45,12 +44,9 @@
       animation-name: spin1;
       animation-duration: 1s;
       /*Amount of times the effect should be played*/
-      animation-timing-function: linear;
-      /*Makes the speed of the effect constant*/
-      transition: transform 2s;
     }
 
-    a: hover {
+    h1: hover {
       transform: rotate(360deg);
     }
 
@@ -108,22 +104,41 @@
       background-size: cover;
       /*Makes the image cover the whole screen*/
     }
+
+
+    div:hover {
+      transform: rotateY(360deg);
+    }
+
+    div {
+      transition: transform 0.5s;
+    }
   </style>
 </head>
 
 <body>
   <h1>APUSH Periods Review</h1>
-  <a href="https://quizlet.com/67188262/period-1-1491-1607-apush-flash-cards/">Period 1</a>
-  <a href="https://quizlet.com/47956253/apush-period-2-1607-1754-flash-cards/">Period 2</a>
-  <a href="https://quizlet.com/63933025/apush-period-3-1754-1800-flash-cards/">Period 3</a>
-  <a href="https://quizlet.com/54235085/apush-period-4-1800-1848-flash-cards/">Period 4</a>
-  <a href="https://quizlet.com/56956635/apush-period-5-1844-1877-flash-cards/">Period 5</a>
-  <a href="https://quizlet.com/67602854/apush-period-6-1865-1898-flash-cards/">Period 6</a>
-  <a href="https://quizlet.com/64944771/apush-period-7-1898-1945-flash-cards/">Period 7</a>
-  <a href="https://quizlet.com/45916001/apush-period-8-1945-1980-flash-cards/">Period 8</a>
-  <a href="https://quizlet.com/81198891/apush-period-9-1980-present-flash-cards/">Period 9</a>
+  <div>
 
+    <a href="https://quizlet.com/67188262/period-1-1491-1607-apush-flash-cards/">Period 1</a>
 
+    <a href="https://quizlet.com/47956253/apush-period-2-1607-1754-flash-cards/">Period 2</a>
+
+    <a href="https://quizlet.com/63933025/apush-period-3-1754-1800-flash-cards/">Period 3</a>
+
+    <a href="https://quizlet.com/54235085/apush-period-4-1800-1848-flash-cards/">Period 4</a>
+
+    <a href="https://quizlet.com/56956635/apush-period-5-1844-1877-flash-cards/">Period 5</a>
+
+    <a href="https://quizlet.com/67602854/apush-period-6-1865-1898-flash-cards/">Period 6</a>
+
+    <a href="https://quizlet.com/64944771/apush-period-7-1898-1945-flash-cards/">Period 7</a>
+
+    <a href="https://quizlet.com/45916001/apush-period-8-1945-1980-flash-cards/">Period 8</a>
+
+    <a href="https://quizlet.com/81198891/apush-period-9-1980-present-flash-cards/">Period 9</a>
+
+  </div>
 </body>
 
 </html>
